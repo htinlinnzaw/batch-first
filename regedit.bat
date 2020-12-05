@@ -6,7 +6,7 @@ cls
 echo Control Registry Editor
 echo 1. Disable Registry Editor
 echo 2. Enable Registry Editor
-set/p val = Your choicel
+set/p val = Your choice;
 if "%val%" == "1" goto -1
 if "%val%" == "2" goto -2
 :-1
